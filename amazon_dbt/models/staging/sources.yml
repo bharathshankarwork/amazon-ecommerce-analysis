@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: public
+    tables:
+      - name: amazon_sales
+        description: "Cleaned Amazon sales table, loaded via pgAdmin/Python from the Kaggle CSV"

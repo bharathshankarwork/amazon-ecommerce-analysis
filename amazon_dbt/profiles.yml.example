@@ -1,0 +1,13 @@
+# Copy this to ~/.dbt/profiles.yml (or merge if it already exists)
+amazon_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: postgres
+      password: postgres
+      port: 5432
+      dbname: amazon_ecommerce
+      schema: public
+      threads: 4
