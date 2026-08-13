@@ -11,11 +11,11 @@ Analysis of 1 million Amazon e-commerce transactions to identify revenue drivers
 - What are monthly sales trends?
 
 ## Key Findings
-- Electronics dominates revenue at £6.6bn out of £9.94bn total, 
+- Electronics dominates revenue at £6.6bn out of £9.94bn total 
 - Products rated below 3.0 have 3x higher return rates than those rated above 3.0
-- Return rate rises sharly with product rating upto 3.0, then flattens around 10-15%
+- Return rate rises sharply with product rating up to 3.0, then flattens around 10-15%
 - Device usage is equally split across Mobile, Web and Tablet at 33% each
-- Clothing has highest average discount at 40% vs Electronics at 22.5%
+- Clothing has the highest average discount at 40% vs Electronics at 22.5%
 - Overall platform return rate is 11.6%
 
 ## Tools Used
