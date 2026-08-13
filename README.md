@@ -27,6 +27,9 @@ Analysis of 1 million Amazon e-commerce transactions to identify revenue drivers
 ## Schema
 - Table: amazon_sales — seller_id, seller_rating, final_price, is_returned, category, device, payment_method, shipping_time_days, rating, discount, purchase_date
 
+## Dashboard
+![Amazon E-Commerce Sales Dashboard](screenshots/dashboard-full-overview-v2.png)
+
 ## Files
 - `sql/sql_queries.sql` — all SQL queries used in analysis
 - `screenshots/` — Power BI dashboard images
