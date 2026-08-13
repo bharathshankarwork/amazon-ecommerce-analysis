@@ -28,8 +28,8 @@ Analysis of 1 million Amazon e-commerce transactions to identify revenue drivers
 - Table: amazon_sales — seller_id, seller_rating, final_price, is_returned, category, device, payment_method, shipping_time_days, rating, discount, purchase_date
 
 ## Files
-- `sql_queries.sql` — all SQL queries used in analysis
-- `dashboard_screenshots/` — Power BI dashboard images
+- `sql/sql_queries.sql` — all SQL queries used in analysis
+- `screenshots/` — Power BI dashboard images
 
 ## Dataset
 Amazon E-Commerce Dataset — Kaggle
