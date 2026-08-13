@@ -11,8 +11,9 @@ Analysis of 1 million Amazon e-commerce transactions to identify revenue drivers
 - What are monthly sales trends?
 
 ## Key Findings
-- Electronics dominates revenue at £6.6bn out of £9.94bn total
+- Electronics dominates revenue at £6.6bn out of £9.94bn total, 
 - Products rated below 3.0 have 3x higher return rates than those rated above 3.0
+- Return rate rises sharly with product rating upto 3.0, then flattens around 10-15%
 - Device usage is equally split across Mobile, Web and Tablet at 33% each
 - Clothing has highest average discount at 40% vs Electronics at 22.5%
 - Overall platform return rate is 11.6%
@@ -23,8 +24,8 @@ Analysis of 1 million Amazon e-commerce transactions to identify revenue drivers
 - Power BI — interactive dashboard
 - Python (Pandas) — data loading
 
-## Dashboard
-[Link to Power BI Dashboard] — add your published link here
+## Schema
+- Table: amazon_sales — seller_id, seller_rating, final_price, is_returned, category, device, payment_method, shipping_time_days, rating, discount, purchase_date
 
 ## Files
 - `sql_queries.sql` — all SQL queries used in analysis
