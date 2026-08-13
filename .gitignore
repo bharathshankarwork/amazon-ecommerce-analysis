@@ -1,0 +1,14 @@
+# raw data - never commit
+data/raw/*
+!data/raw/.gitkeep
+
+# dbt artifacts
+amazon_dbt/target/
+amazon_dbt/dbt_packages/
+amazon_dbt/logs/
+profiles.yml
+
+# python
+__pycache__/
+*.pyc
+.venv/
